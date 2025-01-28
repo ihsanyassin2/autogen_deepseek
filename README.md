@@ -1,8 +1,15 @@
-# README: Multi-Agent Conversational Framework
+# README: Modified Autogen Agents + Ollama Server + DeepSeek-R1 AI Model
+## Ihsan Mohd Yassin, Universiti Teknologi Mara, Malaysia
 
 ## Overview
 
-This project implements a multi-agent conversational framework designed to tackle complex problems by leveraging specialized agents with distinct roles. Each agent operates autonomously and collaboratively, ensuring a comprehensive analysis and synthesis of solutions.
+This project implements a multi-agent conversational framework designed to tackle complex problems by leveraging specialized agents with distinct roles. Each agent operates autonomously and collaboratively, ensuring a comprehensive analysis and synthesis of solutions. Please install Ollama for PC: https://ollama.com/download and pull the deepseek-r1 AI model into your computer. 
+
+I think this project has significant potential since we can implement this agentic framework in our own computer.
+
+Do help me improve this further.
+
+Cheers!
 
 ### Features:
 
@@ -152,5 +159,8 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For questions or contributions, please reach out to ihsan.yassin@gmail.com.
+For questions or contributions, please reach out to ihsan.yassin@gmail.com. 
+https://www.ihsanyassin.com
+Do contact for collaborations!
+Thank you.
 
