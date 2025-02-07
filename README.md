@@ -3,9 +3,9 @@
 
 ## Overview
 
-This project implements a multi-agent conversational framework designed to tackle complex problems by leveraging specialized agents with distinct roles. Each agent operates autonomously and collaboratively, ensuring a comprehensive analysis and synthesis of solutions. Please install Ollama for PC: https://ollama.com/download and pull the deepseek-r1 AI model into your computer. 
+This project implements a multi-agent conversational framework designed to tackle complex problems by leveraging specialized agents with distinct check roles. Each agent operates autonomously and collaboratively, ensuring a comprehensive analysis and synthesis of solutions. Please install Ollama for PC: https://ollama.com/download and pull the deepseek-r1 AI model into your computer. 
 
-I think this project has significant potential since we can implement this agentic framework in our own computer.
+I think this project has significant potential since we can implement this agentic framework entirely in our own computer.
 
 Do help me improve this further.
 
@@ -22,7 +22,7 @@ Cheers!
    - **Contrarian**: Challenges assumptions and explores alternative perspectives.
 3. Configurable team setup via the `TeamConfig` class.
 4. Centralized communication using the `GroupChat` and `GroupChatManager` components.
-5. Integration with LLMs for advanced analysis and decision-making.
+5. Each agent talks to each other, searches the internet and does LLM research (through its own "personal" ChatGPT powered by DeepSeek-R1)
 
 ## Components
 
@@ -123,35 +123,9 @@ if messages:
         print(f"{msg.get('name', 'Unknown')}: {msg['content']}")
 ```
 
-## Dependencies
-
-- Python 3.8+
-- LLM backend (e.g., Ollama API)
-- Custom agent modules:
-  - `custom_user_proxy_agent`
-  - `custom_planner_agent`
-  - `custom_gpt_researcher`
-  - `custom_web_surfer`
-  - `custom_critic_agent`
-  - `custom_first_principles_analyst`
-  - `custom_devils_advocate`
-  - `custom_critical_friend`
-  - `custom_unconventional_strategist`
-  - `custom_contrarian`
-  - `custom_groupchat`
-  - `custom_groupchat_manager`
-
-## Installation
-
-1. Clone the repository.
-2. Install dependencies using pip:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the main script:
-   ```bash
-   python main.py
-   ```
+## Dependencies & Execution
+Copy the entire project to your computer, then run from autogen_bolt.
+It depends on some original autogen packages, so the package (along with many others) should be installed as well.
 
 ## License
 
